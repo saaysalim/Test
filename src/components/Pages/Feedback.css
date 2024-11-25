@@ -1,0 +1,68 @@
+/* Style for the entire form container */
+form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Style for the form title */
+  form h1 {
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Style for the form description */
+  form p {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  /* General label styles - spacing and display */
+  form label {
+    display: block;
+    margin-top: 1.5rem;
+    color: #333;
+  }
+  
+  /* Textarea styles for input fields */
+  form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    min-height: 100px;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9rem;
+  }
+  
+  /* Styles for buttons */
+  form button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-top: 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover and focus styles for buttons */
+  form button:hover,
+  form button:focus {
+    background-color: #0056b3;
+  }
+  
+  /* Style for when the button is pressed */
+  form button:active {
+    background-color: #00408b;
+  }
+  

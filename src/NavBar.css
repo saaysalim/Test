@@ -1,0 +1,43 @@
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-logo img {
+  height: 50px; /* Adjust as needed */
+}
+
+.submenu-parent {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #23264a; /* Adjust background color as needed */
+  border: 1px solid #31516077; /* Optional */
+}
+
+.submenu li {
+  padding: 10px; /* Adjust padding as needed */
+}
+
+.submenu-parent:hover .submenu {
+  display: block;
+}
+
+.submenu li a {
+  color: #000; /* Adjust link color as needed */
+  text-decoration: none;
+}
+
+/* Add more styles as needed */

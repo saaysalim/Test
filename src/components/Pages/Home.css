@@ -1,0 +1,49 @@
+/* Home.css */
+
+div {
+  text-align: left; /* left the content */
+  padding: 20px; /* Adds some padding around the content */
+  font-family: 'Arial', sans-serif; /* Sets a clean, readable font */
+}
+
+h1 {
+  color: #0056b3; /* A strong, inviting color for the main heading */
+  margin-bottom: 20px; /* Adds space below the heading */
+}
+
+p {
+  color: #333; /* Dark grey color for text, ensuring readability */
+  line-height: 1.6; /* Improves readability by spacing out lines */
+  margin-bottom: 30px; /* Adds space below the paragraph */
+}
+
+.image-slider {
+  display: flex;
+  justify-content: center; /* Centers images horizontally */
+  align-items: center; /* Centers images vertically */
+  overflow-x: auto; /* Allows horizontal scrolling for multiple images */
+  gap: 20px; /* Adds space between images */
+  padding: 20px 0; /* Adds padding above and below the image slider */
+}
+
+.image-slider img {
+  max-width: 100%; /* Ensures images are responsive */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 10px; /* Softens the edges of images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+a {
+  display: inline-block;
+ /* background-color: #0056b3;*/
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none; /* Removes underline from links */
+  margin-top: 20px; /* Adds space above the link */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+a:hover {
+  background-color: #004494; /* Darker shade on hover for visual feedback */
+}

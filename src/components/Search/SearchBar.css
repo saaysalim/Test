@@ -1,0 +1,23 @@
+/* Additional styles */
+.search-input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust the gap between items as needed */
+}
+
+.search-icon {
+  font-size: 20px; /* Adjust the size of the search icon as needed */
+}
+
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}

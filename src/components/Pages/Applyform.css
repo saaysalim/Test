@@ -1,0 +1,67 @@
+/* ApplyForm Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  form div label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form div input[type="text"],
+  form div input[type="email"],
+  form div input[type="tel"],
+  form div input[type="date"],
+  form div input[type="file"],
+  form div select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding does not affect the overall width */
+  }
+  
+  form div input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #004494;
+  }
+  
+  /* Styling for checkbox labels for better readability */
+  form div label input {
+    vertical-align: middle;
+  }
+  
+  /* Paragraph styling for instructions or additional text */
+  form p {
+    font-style: italic;
+    color: #666;
+  }
+  
